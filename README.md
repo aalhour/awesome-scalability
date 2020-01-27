@@ -1,20 +1,20 @@
-[![Logo](/logo.png)](https://binhnguyennus.github.io/awesome-scalability/)
+[![Logo](/logo.png)](http://awesome-scalability.com/)
 
 An updated and organized reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems. Concepts are explained in the articles of prominent engineers and credible references. Case studies are taken from battle-tested systems that serve millions to billions of users.
 
-#### If your system goes slow :traffic_light:
+#### If your system goes slow
 > Understand your problems: scalability problem (fast for a single user but slow under heavy load) or performance problem (slow for a single user) by reviewing some [design principles](#principle) and checking how [scalability](#scalability) and [performance](#performance) problems are solved at tech companies. The section of [intelligence](#intelligence) are created for those who work with data and machine learning at big (data) and deep (learning) scale.
 
-#### If your system goes down :construction:
+#### If your system goes down
 > "Even if you lose all one day, you can build all over again if you retain your calm!" - Thuan Pham, CTO of Uber. So, keep calm and mind the [availability](#availability) and [stability](#stability) matters! 
 
-#### If you are having a system design interview :ocean:
-> Look at some [interview notes](#interview) and [real-world architectures with completed diagrams](#architecture) to get a comprehensive view before designing your system on whiteboard. You can check some [talks](#talk) of engineers from tech giants to know how they build, scale, and optimize their systems. There are some selected [books](#book) for you (most of them are free)! Good luck :four_leaf_clover:
+#### If you are having a system design interview
+> Look at some [interview notes](#interview) and [real-world architectures with completed diagrams](#architecture) to get a comprehensive view before designing your system on whiteboard. You can check some [talks](#talk) of engineers from tech giants to know how they build, scale, and optimize their systems. There are some selected [books](#book) for you (most of them are free)! Good luck!
 
-#### If you are building your dream team :ferris_wheel:
+#### If you are building your dream team
 > The goal of scaling team is not growing team size but increasing team output and value. You can find out how tech companies reach that goal in various aspects: hiring, management, organization, culture, and communication in the [organization](#organization) section.
 
-#### Community power :mountain_cableway::aerial_tramway::mountain_cableway:
+#### Community power
 
 > Contributions are greatly welcome! You may want to take a look at the [contribution guidelines](CONTRIBUTING.md). If you see a link here that is no longer maintained or is not a good fit, please submit a pull request!
 
@@ -92,7 +92,6 @@ An updated and organized reading list for illustrating the patterns of scalable,
 * [Linux Performance](http://www.brendangregg.com/linuxperf.html)
 * [Building Fast and Resilient Web Applications - Ilya Grigorik](https://www.igvita.com/2016/05/20/building-fast-and-resilient-web-applications/)
 * [Accept Partial Failures, Minimize Service Loss](https://www.usenix.org/conference/srecon17asia/program/presentation/wang_daxin)
-* [Design for Loose-coupling](http://bulgerpartners.com/how-loosely-coupled-architectures-are-helping-the-modernization-of-legacy-software/)
 * [Design for Resiliency](http://highscalability.com/blog/2012/12/31/designing-for-resiliency-will-be-so-2013.html)
 * [Design for Self-healing](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/self-healing)
 * [Design for Scaling Out](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/scale-out)	
@@ -118,8 +117,11 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Microservice Architecture at Medium](https://medium.engineering/microservice-architecture-at-medium-9c33805eb74f)
 	* [From bare-metal to Kubernetes at Betabrand](https://boxunix.com/post/bare_metal_to_kube/)
 	* [Kubernetes at Tinder](https://medium.com/tinder-engineering/tinders-move-to-kubernetes-cda2a6372f44)
+	* [Kubernetes at Quora](https://www.quora.com/q/quoraengineering/Adopting-Kubernetes-at-Quora)	
 	* [Kubernetes Platform at Pinterest](https://medium.com/pinterest-engineering/building-a-kubernetes-platform-at-pinterest-fb3d9571c948)
 	* [Microservices at Nubank](https://medium.com/building-nubank/microservices-at-nubank-an-overview-2ebcb336c64d)
+	* [GRIT: Protocol for Distributed Transactions across Microservices at eBay](https://tech.ebayinc.com/engineering/grit-a-protocol-for-distributed-transactions-across-microservices/)
+	* [Rubix: Kubernetes at Palantir](https://medium.com/palantir/introducing-rubix-kubernetes-at-palantir-ab0ce16ea42e)
 * [Distributed Caching](https://www.wix.engineering/single-post/scaling-to-100m-to-cache-or-not-to-cache)
 	* [EVCache: Distributed In-memory Caching at Netflix](https://medium.com/netflix-techblog/caching-for-a-global-netflix-7bcc457012f1)
 	* [EVCache Cache Warmer Infrastructure at Netflix](https://medium.com/netflix-techblog/cache-warming-agility-for-a-stateful-service-2d3b1da82642)
@@ -144,7 +146,8 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Redis at Trivago](http://tech.trivago.com/2017/01/25/learn-redis-the-hard-way-in-production/)
 	* [Optimizing Redis Storage at Deliveroo](https://deliveroo.engineering/2017/01/19/optimising-membership-queries.html)
 	* [Memory Optimization in Redis at Wattpad](http://engineering.wattpad.com/post/23244724794/store-more-stuff-memory-optimization-in-redis)
-	* [Redis Fleet at Heroku](https://blog.heroku.com/rolling-redis-fleet)	
+	* [Redis Fleet at Heroku](https://blog.heroku.com/rolling-redis-fleet)
+	* [Solving Remote Build Cache Misses (2 parts) at SoundCloud](https://developers.soundcloud.com/blog/gradle-remote-build-cache-misses-part-2)
     * [HTTP Caching and CDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)
         * [Zynga Geo Proxy: Reducing Mobile Game Latency at Zynga](https://www.zynga.com/blogs/engineering/zynga-geo-proxy-reducing-mobile-game-latency)
         * [Google AMP at Condé Nast](https://technology.condenast.com/story/the-why-and-how-of-google-amp-at-conde-nast)
@@ -152,6 +155,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
         * [HAProxy with Kubernetes for User-facing Traffic at SoundCloud](https://developers.soundcloud.com/blog/how-soundcloud-uses-haproxy-with-kubernetes-for-user-facing-traffic)
         * [Bandaid: Service Proxy at Dropbox](https://blogs.dropbox.com/tech/2018/03/meet-bandaid-the-dropbox-service-proxy/)
         * [CDN in LIVE's Encoder Layer at LINE](https://engineering.linecorp.com/en/blog/detail/230)
+		* [Service Workers at Slack](https://slack.engineering/service-workers-at-slack-our-quest-for-faster-boot-times-and-offline-support-3492cf79c88)
 * [Distributed Locking](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)
 	* [Chubby: Lock Service for Loosely Coupled Distributed Systems at Google](https://blog.acolyer.org/2015/02/13/the-chubby-lock-service-for-loosely-coupled-distributed-systems/)
 	* [Distributed Locking at Uber](https://www.youtube.com/watch?v=MDuagr729aU)
@@ -196,6 +200,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
     * [Monitoring System at Alibaba](https://www.usenix.org/conference/srecon18asia/presentation/xinchi)
     * [Real User Monitoring at Dailymotion](https://medium.com/dailymotion/real-user-monitoring-1948375f8be5)
     * [Alerting Ecosystem at Uber](https://eng.uber.com/observability-at-scale/)
+	* [Alerting Framework at Airbnb](https://medium.com/airbnb-engineering/alerting-framework-at-airbnb-35ba48df894f)
 	* [Alerting on Service-Level Objectives (SLOs) at SoundCloud](https://developers.soundcloud.com/blog/alerting-on-slos)
     * [Job-based Forecasting Workflow for Observability Anomaly Detection at Uber](https://eng.uber.com/observability-anomaly-detection/)
 	* [Monitoring and Alert System using Graphite and Cabot at HackerEarth](http://engineering.hackerearth.com/2017/03/21/monitoring-and-alert-system-using-graphite-and-cabot/)
@@ -206,8 +211,10 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Unicorn: Remediation System at eBay](https://www.ebayinc.com/stories/blogs/tech/unicorn-rheos-remediation-center/)
 	* [M3: Metrics and Monitoring Platform at Uber](https://eng.uber.com/optimizing-m3/)
 	* [Athena: Automated Build Health Management System at Dropbox](https://blogs.dropbox.com/tech/2019/05/athena-our-automated-build-health-management-system/)
+	* [Vortex: Monitoring Server Applications at Dropbox](https://blogs.dropbox.com/tech/2019/11/monitoring-server-applications-with-vortex/)	
 	* [Nuage: Cloud Management Service at LinkedIn](https://engineering.linkedin.com/blog/2019/solving-manageability-challenges-with-nuage)
 	* [ThirdEye: Monitoring Platform at LinkedIn](https://engineering.linkedin.com/blog/2019/06/smart-alerts-in-thirdeye--linkedins-real-time-monitoring-platfor)
+	* [Data Pipeline Monitoring System at LinkedIn](https://engineering.linkedin.com/blog/2019/an-inside-look-at-linkedins-data-pipeline-monitoring-system-)
 * [Distributed Security](https://msdn.microsoft.com/en-us/library/cc767123.aspx)
 	* [Approach to Security at Scale at Dropbox](https://blogs.dropbox.com/tech/2018/02/security-at-scale-the-dropbox-approach/)
 	* [Aardvark and Repokid: AWS Least Privilege for Distributed, High-Velocity Development at Netflix](https://medium.com/netflix-techblog/introducing-aardvark-and-repokid-53b081bf3a7e)	
@@ -220,7 +227,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Syscall Auditing at Scale at Slack](https://slack.engineering/syscall-auditing-at-scale-e6a3ca8ac1b8)
 	* [Athenz: Fine-Grained, Role-Based Access Control at Yahoo](https://yahooeng.tumblr.com/post/160481899076/open-sourcing-athenz-fine-grained-role-based)
 	* [WebAuthn Support for Secure Sign In at Dropbox](https://blogs.dropbox.com/tech/2018/05/introducing-webauthn-support-for-secure-dropbox-sign-in/)
-	* [Security Development Lifecycle (SDL) at Slack](https://slack.engineering/moving-fast-and-securing-things-540e6c5ae58a)
+	* [Security Development Lifecycle at Slack](https://slack.engineering/moving-fast-and-securing-things-540e6c5ae58a)
 	* [Unprivileged Container Builds at Kinvolk](https://kinvolk.io/blog/2018/04/towards-unprivileged-container-builds/)
 	* [Diffy: Differencing Engine for Digital Forensics in the Cloud at Netflix](https://medium.com/netflix-techblog/netflix-sirt-releases-diffy-a-differencing-engine-for-digital-forensics-in-the-cloud-37b71abd2698)
 	* [Detecting Credential Compromise in AWS at Netflix](https://medium.com/netflix-techblog/netflix-cloud-security-detecting-credential-compromise-in-aws-9493d6fd373a)
@@ -228,6 +235,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [AVA: Audit Web Applications at Indeed](https://engineering.indeedblog.com/blog/2018/09/application-scanning/)
 	* [TTL as a Service: Automatic Revocation of Stale Privileges at Yelp](https://engineeringblog.yelp.com/2018/11/ttl-as-a-service.html)
 	* [Enterprise Key Management at Slack](https://slack.engineering/engineering-dive-into-slack-enterprise-key-management-1fce471b178c)	
+	* [Scalability and Authentication at Twitch](https://blog.twitch.tv/en/2019/03/15/how-twitch-addresses-scalability-and-authentication-718d6ed3c471/)
 * [Distributed Messaging, Queuing, and Event Streaming](https://arxiv.org/pdf/1704.00411.pdf)
 	* [Cape: Event Stream Processing Framework at Dropbox](https://blogs.dropbox.com/tech/2017/05/introducing-cape/)
 	* [Brooklin: Distributed Service for Near Real-Time Data Streaming at LinkedIn](https://engineering.linkedin.com/blog/2019/brooklin-open-source)
@@ -236,6 +244,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [EventHorizon: Tool for Watching Events Streaming at Etsy](https://codeascraft.com/2018/05/29/the-eventhorizon-saga/)
 	* [Qmessage: Distributed, Asynchronous Task Queue at Quora](https://engineering.quora.com/Qmessage-Handling-Billions-of-Tasks-Per-Day)
 	* [Cherami: Message Queue System for Transporting Async Tasks at Uber](https://eng.uber.com/cherami/)
+	* [Dynein: Distributed Delayed Job Queueing System at Airbnb](https://medium.com/airbnb-engineering/dynein-building-a-distributed-delayed-job-queueing-system-93ab10f05f99)
 	* [Messaging Service at Riot Games](https://engineering.riotgames.com/news/riot-messaging-service)
 	* [Debugging Production with Event Logging at Zillow](https://www.zillow.com/engineering/debugging-production-event-logging/)
 	* [Cross-platform In-app Messaging Orchestration Service at Netflix](https://medium.com/netflix-techblog/building-a-cross-platform-in-app-messaging-orchestration-service-86ba614f92d8)
@@ -258,6 +267,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 		* [Pulsar: Pub-Sub Messaging at Scale at Yahoo](https://yahooeng.tumblr.com/post/150078336821/open-sourcing-pulsar-pub-sub-messaging-at-scale)
 		* [Wormhole: Pub-Sub System at Facebook](https://code.facebook.com/posts/188966771280871/wormhole-pub-sub-system-moving-data-through-space-and-time/)
 		* [Pub-Sub in Chatting Architecture at LINE](https://engineering.linecorp.com/en/blog/detail/85)
+		* [Pub-Sub in Microservices at Netflix](https://medium.com/netflix-techblog/how-netflix-microservices-tackle-dataset-pub-sub-4a068adcc9a)
 	* [Kafka the Message Broker](https://martin.kleppmann.com/papers/kafka-debull15.pdf)	
 		* [Kafka at LinkedIn](https://engineering.linkedin.com/kafka/running-kafka-scale)
 		* [Kafka at Pinterest](https://medium.com/pinterest-engineering/how-pinterest-runs-kafka-at-scale-ff9c6f735be)
@@ -278,17 +288,20 @@ An updated and organized reading list for illustrating the patterns of scalable,
 		* [Real-time Deduping at Tapjoy](http://eng.tapjoy.com/blog-list/real-time-deduping-at-scale)
 		* [Deduplication at Segment](https://segment.com/blog/exactly-once-delivery/)
 		* [Deduplication at Mail.Ru](https://medium.com/@andrewsumin/efficient-storage-how-we-went-down-from-50-pb-to-32-pb-99f9c61bf6b4)
+		* [Petabyte Scale Data Deduplication at Mixpanel](https://medium.com/mixpaneleng/petabyte-scale-data-deduplication-mixpanel-engineering-e808c70c99f8)
 * [Distributed Logging](https://blog.codinghorror.com/the-problem-with-logging/)
 	* [Logging at LinkedIn](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 	* [Scalable and Reliable Log Ingestion at Pinterest](https://medium.com/@Pinterest_Engineering/scalable-and-reliable-data-ingestion-at-pinterest-b921c2ee8754)
 	* [High-performance Replicated Log Service at Twitter](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2015/building-distributedlog-twitter-s-high-performance-replicated-log-servic.html)
 	* [Logging Service with Spark at CERN Accelerator](https://databricks.com/blog/2017/12/14/the-architecture-of-the-next-cern-accelerator-logging-service.html)
 	* [Logging and Aggregation at Quora](https://engineering.quora.com/Logging-and-Aggregation-at-Quora)
+	* [Collection and Analysis of Daemon Logs at Badoo](https://badoo.com/techblog/blog/2016/06/06/collection-and-analysis-of-daemon-logs-at-badoo/)
+	* [Log Parsing with Static Code Analysis at Palantir](https://medium.com/palantir/using-static-code-analysis-to-improve-log-parsing-18f0d1843965)		
+	* [Centralized Application Logging at eBay](https://tech.ebayinc.com/engineering/low-latency-and-high-throughput-cal-ingress/)	
 	* [BookKeeper: Distributed Log Storage at Yahoo](https://yahooeng.tumblr.com/post/109908973316/bookkeeper-yahoos-distributed-log-storage-is)
 	* [LogDevice: Distributed Data Store for Logs at Facebook](https://code.facebook.com/posts/357056558062811/logdevice-a-distributed-data-store-for-logs/)
 	* [LogFeeder: Log Collection System at Yelp](https://engineeringblog.yelp.com/2018/03/introducing-logfeeder.html)
-	* [Collection and Analysis of Daemon Logs at Badoo](https://badoo.com/techblog/blog/2016/06/06/collection-and-analysis-of-daemon-logs-at-badoo/)
-	* [Log Parsing with Static Code Analysis at Palantir](https://medium.com/palantir/using-static-code-analysis-to-improve-log-parsing-18f0d1843965)			
+	* [DBLog: Generic Change-Data-Capture Framework at Netflix](https://medium.com/netflix-techblog/dblog-a-generic-change-data-capture-framework-69351fb9099b)	
 * [Distributed Searching](http://nwds.cs.washington.edu/files/nwds/pdf/Distributed-WR.pdf)
 	* [Search Architecture at Instagram](https://instagram-engineering.com/search-architecture-eeb34a936d3a)
 	* [Search Architecture at eBay](http://www.cs.otago.ac.nz/homepages/andrew/papers/2017-8.pdf)
@@ -296,6 +309,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Universal Search System at Pinterest](https://medium.com/pinterest-engineering/building-a-universal-search-system-for-pinterest-e4cb03a898d4)
 	* [Improving Search Engine Efficiency by over 25% at eBay](https://www.ebayinc.com/stories/blogs/tech/making-e-commerce-search-faster/)	
 	* [Indexing and Querying Telemetry Logs with Lucene at Palantir](https://medium.com/palantir/indexing-and-querying-telemetry-logs-with-lucene-234c5ce3e5f3)
+	* [Query Understanding at TripAdvisor](https://www.tripadvisor.com/engineering/query-understanding-at-tripadvisor/)
 	* [Search Federation Architecture at LinkedIn (2018)](https://engineering.linkedin.com/blog/2018/03/search-federation-architecture-at-linkedin)
 	* [Search at Slack](https://slack.engineering/search-at-slack-431f8c80619e)
 	* [Search and Recommendations at DoorDash](https://blog.doordash.com/powering-search-recommendations-at-doordash-8310c5cfd88c)
@@ -449,6 +463,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 * [Scaling Continuous Integration and Continuous Delivery](https://www.synopsys.com/blogs/software-security/agile-cicd-devops-glossary/)
 	* [Continuous Integration Stack at Facebook](https://code.fb.com/web/rapid-release-at-massive-scale/)
 	* [Continuous Integration with Distributed Repositories and Dependencies at Netflix](https://medium.com/netflix-techblog/towards-true-continuous-integration-distributed-repositories-and-dependencies-2a2e3108c051)
+	* [Continuous Integration and Deployment with Bazel at Dropbox](https://blogs.dropbox.com/tech/2019/12/continuous-integration-and-deployment-with-bazel/)
 	* [Screwdriver: Continuous Delivery Build System for Dynamic Infrastructure at Yahoo](https://yahooeng.tumblr.com/post/155765242061/open-sourcing-screwdriver-yahoos-continuous)
 	* [CI/CD at Betterment](https://www.betterment.com/resources/ci-cd-shortening-the-feedback-loop/)
 	* [CI/CD at Brainly](https://medium.com/engineering-brainly/ci-cd-at-scale-fdfb0f49e031)
@@ -474,6 +489,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Failover with Redis Sentinel at Vinted](http://engineering.vinted.com/2015/09/03/failover-with-redis-sentinel/)
 	* [High-availability SaaS Infrastructure at FreeAgent](http://engineering.freeagent.com/2017/02/06/ha-infrastructure-without-breaking-the-bank/)
 	* [MySQL High Availability at GitHub](https://github.blog/2018-06-20-mysql-high-availability-at-github/)
+	* [Business Continuity & Disaster Recovery at Walmart](https://medium.com/walmartlabs/business-continuity-disaster-recovery-in-the-microservices-world-ef2adca363df)
 * [Load Balancing](https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/)
 	* [Introduction to Modern Network Load Balancing and Proxying](https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236)
 	* [Top Five (Load Balancing) Scalability Patterns](https://www.f5.com/company/blog/top-five-scalability-patterns)
@@ -490,6 +506,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [QALM: QoS Load Management Framework at Uber](https://eng.uber.com/qalm/)	
 	* [Traffic Steering using Rum DNS at LinkedIn](https://www.usenix.org/conference/srecon17europe/program/presentation/rastogi)
 	* [Traffic Infrastructure (Edge Network) at Dropbox](https://blogs.dropbox.com/tech/2018/10/dropbox-traffic-infrastructure-edge-network/)
+	* [Intelligent DNS based load balancing at Dropbox](https://blogs.dropbox.com/tech/2020/01/intelligent-dns-based-load-balancing-at-dropbox/)
 	* [Monitor DNS systems at Stripe](https://stripe.com/en-sg/blog/secret-life-of-dns)
 * [Rate Limiting](https://www.keycdn.com/support/rate-limiting/)
 	* [Rate Limiting for Scaling to Millions of Domains at Cloudfare](https://blog.cloudflare.com/counting-things-a-lot-of-different-things/)
@@ -617,6 +634,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [RBEA: Real-time Analytics Platform at King](https://techblog.king.com/rbea-scalable-real-time-analytics-king/)
 	* [AresDB: GPU-Powered Real-time Analytics Engine at Uber](https://eng.uber.com/aresdb/)
 	* [AthenaX: Streaming Analytics Platform at Uber](https://eng.uber.com/athenax/)
+	* [Delta: Data Synchronization and Enrichment Platform at Netflix](https://medium.com/netflix-techblog/delta-a-data-synchronization-and-enrichment-platform-e82c36a79aee)
 	* [Keystone: Real-time Stream Processing Platform at Netflix](https://medium.com/netflix-techblog/keystone-real-time-stream-processing-platform-a3ee651812a)
 	* [Databook: Turning Big Data into Knowledge with Metadata at Uber](https://eng.uber.com/databook/)
 	* [Amundsen: Data Discovery & Metadata Engine at Lyft](https://eng.lyft.com/amundsen-lyfts-data-discovery-metadata-engine-62d27254fbb9)
@@ -694,6 +712,10 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [3D Home Backend Algorithms at Zillow](https://www.zillow.com/engineering/behind-zillow-3d-home-backend-algorithms/)
 	* [Long-term Forecasts at Lyft](https://eng.lyft.com/making-long-term-forecasts-at-lyft-fac475b3ba52)
 	* [Discovering Popular Dishes with Deep Learning at Yelp](https://engineeringblog.yelp.com/2019/10/discovering-popular-dishes-with-deep-learning.html)
+	* [SplitNet Architecture for Ad Candidate Ranking at Twitter](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/splitnet-architecture-for-ad-candidate-ranking.html)
+	* [Jobs Filter at Indeed](https://engineering.indeedblog.com/blog/2019/09/jobs-filter/)
+	* [Architecting Restaurant Wait Time Predictions at Yelp](https://engineeringblog.yelp.com/2019/12/architecting-wait-time-estimations.html)
+	* [Music Personalization at Spotify](https://labs.spotify.com/2016/08/07/commodity-music-ml-services/)
 
 ## Architecture
 * [Systems We Make](https://systemswemake.com/)
@@ -837,12 +859,6 @@ An updated and organized reading list for illustrating the patterns of scalable,
 * [Web Scalability for Startup Engineers](https://www.goodreads.com/book/show/23615147-web-scalability-for-startup-engineers)
 * [Scalability Rules: 50 Principles for Scaling Web Sites](http://scalabilityrules.com/)
 
-## License
-
-This project is created by [Nguyen Quoc Binh](https://www.linkedin.com/in/binhnguyennus/) in [2017 Christmas Eve](https://github.com/binhnguyennus/awesome-scalability/graphs/contributors) and is dedicated to late-night programmers who sacrifice their personal life at work.
-
 ## Donation
 
-Buy me a coffee, please? Thank you! It means a lot :heart:
-
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/binhnguyennus)
+[Binh Nguyen](https://sg.linkedin.com/in/binhnguyennus) creates and maintains this project. [Could you treat his cat a cake?](https://paypal.me/binhnguyennus) :cake:
